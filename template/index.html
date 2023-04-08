@@ -913,21 +913,28 @@
 
             <!-- New Table -->
             <div class="w-full overflow-hidden rounded-lg shadow-xs">
-              <div class="w-full overflow-x-auto">
-                <table class="w-full whitespace-no-wrap id=iniTabel">
-                  <thead>
-                    <tr
-                      class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800"
-                    >
-                      <th class="px-4 py-3">Nama Bank</th>
-                      <th class="px-4 py-3">Data Nasabah</th>
-                      <th class="px-4 py-3">Data Tagihan</th>
-                      <th class="px-4 py-3">Deskripsi</th>
-                      <th class="px-4 py-3">Status</th>
-                      <th class="px-4 py-3">Data Penagih</th>
+                <div class="overflow-x-auto">
+                  <table class="w-full" id="iniTabel">
+                    <tr class="whitespace-nowrap h-11 bg-coolGray-50 bg-opacity-80 border-b border-coolGray-100">
+                      <th class="px-4 font-semibold text-xs text-coolGray-500 uppercase text-left">
+                        <div class="flex items-center">
+                          <input class="mr-3 w-4 h-4 bg-white rounded"/>
+                          <p>Nama Bank</p>
+                        </div>
+                      </th>
+                      <th class="whitespace-nowrap px-4 font-semibold text-xs text-coolGray-500 uppercase text-left">Data Nasabah</th>
+                      <th class="whitespace-nowrap px-4 font-semibold text-xs text-coolGray-500 uppercase text-left">Data Tagihan</th>
+                      <th class="whitespace-nowrap px-4 font-semibold text-xs text-coolGray-500 uppercase text-left">Deskripsi</th>
+                      <th class="whitespace-nowrap px-4 font-semibold text-xs text-coolGray-500 uppercase text-left">Status</th>
+                      <th class="whitespace-nowrap px-4 font-semibold text-xs text-coolGray-500 uppercase text-left">Data Penagih</th>
+                      <th class="whitespace-nowrap font-semibold text-xs text-coolGray-500 uppercase text-center"></th>
                     </tr>
-                  </thead>
-                </table>
+
+                    <!-- ISI TABEL DARI SINI (BUAT pada FILE tabel.js) -->
+
+                    <!-- ISI TABEL SAMPAI DISINI (BUAT pada FILE tabel.js) -->
+                  </table>
+                </div>
               </div>
               <div
                 class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800"
