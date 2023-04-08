@@ -1,4 +1,7 @@
 export let isiTabel = `
+<tbody
+                    class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800"
+                  >
 <tr class="h-18 border-b border-coolGray-100">
     <th class="whitespace-nowrap px-4 bg-white text-left px-4 py-3">
         <div class="flex items-center -m-2">
@@ -41,4 +44,5 @@ export let isiTabel = `
         </svg>
     </th>
 </tr>
+</tbody>
 `;
