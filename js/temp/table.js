@@ -5,25 +5,25 @@ export let isiTabel = `
             <div class="w-auto p-2">
             </div>
             <div class="w-auto p-2">
-                <div class="flex items-center justify-center w-10 h-10 text-base font-medium text-#WARNALOGO#-600 bg-#WARNALOGO#-200 rounded-md">ULBI</div>
+                <div class="flex items-center justify-center w-10 h-10 text-base font-medium text-#WARNALOGO#-600 bg-#WARNALOGO#-200 rounded-md">ABC</div>
             </div>
             <div class="w-auto p-2">
                 <p class="text-xs font-semibold text-coolGray-800">#NAMA_BANK#</p>
-                <p class="text-xs font-semibold text-coolGray-800">#LOKASI_BANK#</p>
+                <p class="text-xs text-gray-600 dark:text-gray-400">#LOKASI_BANK#</p>
             </div>
         </div>
     </th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left px-4 py-3">
     <div class="w-auto p-2">
         <p class="text-xs font-semibold text-coolGray-800">#NAMA_NASABAH#</p>
-        <p class="text-xs font-medium text-coolGray-500">#PHONE_NUMBER#</p>
-        <p class="text-xs font-medium text-coolGray-500">#EMAILN#</p>
+        <p class="text-xs text-gray-600 dark:text-gray-400">#PHONE_NUMBER#</p>
+        <p class="text-xs text-gray-600 dark:text-gray-400">#EMAILN#</p>
         </div>
     </th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left px-4 py-3">
     <div class="w-auto p-2">
     <p class="text-xs font-semibold text-coolGray-800">#TAGIHAN#</p>
-    <p class="text-xs font-medium text-coolGray-500">#TANGGAL#</p>
+    <p class="text-xs text-gray-600 dark:text-gray-400">#TANGGAL#</p>
     </div>
     </th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left px-4 py-3">#DESKRIPSI#</th>
@@ -31,8 +31,8 @@ export let isiTabel = `
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left px-4 py-3">
     <div class="w-auto p-2">
     <p class="text-xs font-semibold text-coolGray-800">#NAMA_PENAGIH#</p>
-    <p class="text-xs font-medium text-coolGray-500">#NO_HP#</p>
-    <p class="text-xs font-medium text-coolGray-500">#EMAILP#</p>
+    <p class="text-xs text-gray-600 dark:text-gray-400">#NO_HP#</p>
+    <p class="text-xs text-gray-600 dark:text-gray-400">#EMAILP#</p>
     </div>
     </th>
     <th class="whitespace-nowrap pr-4 bg-white text-sm font-medium text-coolGray-800 px-4 py-3">
